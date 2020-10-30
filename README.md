@@ -1,18 +1,19 @@
-# Marvel Challenge
+
+# :milky_way:Marvel Challenge:milky_way:
 ## Listagem ilustrada dos heróis da Marvel
 
 ### O projeto MarvelChallenge foi feito com muito carinho para a seleção da FortBrasil. Nele é possível ver o nome de vários personagens da Marvel, assim como as suas respectivas imagens. 
 
-### Como testar
+### :page_facing_up: Como testar
 
 Para testar, é só:
 - Clonar esse respositório
 - Acessar a pasta do projeto
-- Intalar o Angular 
-- Colocar no cmd: `ng serve`
+- Instalar o Angular com `npm install`
+- Executar o comando: `ng serve`
 - Ir até  `http://localhost:4200/`
 
-### Como usar
+### :mag_right: Como usar
 
 Descer a página para vizualizar mais personagens e os botões de mudança. Caso haja mais páginas, é só clicar em:
 - ">" para para a próxima página
@@ -22,7 +23,7 @@ Descer a página para vizualizar mais personagens e os botões de mudança. Caso
 
 Obs: Se os botões não estiverem disponíveis, é porque não há a página desejada 
 
-### Tecnologias
+### :computer: Tecnologias
 
 Foi usado na criação do projeto: 
 
