@@ -9,17 +9,17 @@ Conteúdo
    * [Sobre](#Sobre)
    * [Conteúdo](#conteudo)
    * [Como testar](#como-testar)
-   * [Como usar] (#como-usar)
+   * [Como usar](#como-usar)
    * [Tecnologias](#tecnologias)
 <!--te-->
 ### Como testar
 
 Para testar, é só:
-# Clonar esse respositório
-# Acessar a pasta do projeto
-# Intalar o Angular 
-# Colocar no cmd: `ng serve`
-# Ir até  `http://localhost:4200/`
+- Clonar esse respositório
+- Acessar a pasta do projeto
+- Intalar o Angular 
+- Colocar no cmd: `ng serve`
+- Ir até  `http://localhost:4200/`
 
 ### Como usar
 Descer a página para vizualizar mais personagens e os botões de mudança. Caso haja, mais páginas é só clicar em:
