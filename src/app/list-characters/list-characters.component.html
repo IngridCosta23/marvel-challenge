@@ -1,0 +1,26 @@
+<div class = "container">
+    <div class = "card-deck">
+        <div *ngFor = "let c of Characters | async ; index as i">
+            <div  class="card" >
+                <div class = "card-div">
+                    <img class="card-img" src="{{c.thumbnail.path}}.{{c.thumbnail.extension}}" alt="Imagem de capa do card" style="width:fill-parent; max-height: 18rem;">
+                </div>
+                <div class="card-body">   
+                        <h4 class="card-title">{{c.name}}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+          <li *ngIf="currentPage>2" class="page-item"><button class="page-button" (click) = "chargePage(1)"><<</button></li>
+          <li *ngIf="currentPage>1" class="page-item"><button class="page-button" (click) = "chargePage(currentPage-1)"><</button></li>
+          <li  class="page-item"><div id="current-page">{{currentPage}}</div></li>
+          <li *ngIf="currentPage<totalPages" class="page-item"><button class="page-button" (click) = "chargePage(currentPage+1)">></button></li>
+          <li *ngIf="currentPage<totalPages-1" class="page-item"><button class="page-button" (click) = "chargePage(totalPages)">>></button></li>
+        </ul>
+      </nav>    
+</div>
+
+
+  

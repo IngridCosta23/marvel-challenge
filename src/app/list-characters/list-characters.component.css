@@ -1,0 +1,41 @@
+
+.card{
+    width: 15rem;
+    margin-bottom: 3rem;
+    border-width: 5px;
+    border-color: black;
+}
+
+.card-deck{
+    margin: 9rem 0rem;
+}
+
+.card-div{
+    height: 18rem;
+}
+
+.card-body{
+    height: 9rem;
+    text-align: center;
+}
+
+.page-button{
+    border: none;
+    background: none;
+    outline: none;
+    color: red;
+    font-size: 2rem;
+    width: 5rem;
+    height: 5rem;
+    font-weight: bold;
+}
+
+#current-page{
+    line-height: 5rem;
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+}

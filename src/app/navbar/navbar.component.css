@@ -1,0 +1,33 @@
+
+
+.input-group.mb-3{
+    width: 25rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.btn.btn-primary{
+    background:  #EE171F ;
+    -webkit-box-shadow: none;
+    border:none;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn.btn-primary:hover{
+    -webkit-box-shadow: none;
+    background: #F2545A;
+    border:none;
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.btn.btn-primary:active{
+    -webkit-box-shadow: none!important;
+    background: #BE0E14;
+    border:white !important;
+    box-shadow: 0 0 1em white  !important;
+  
+   
+    
+}
