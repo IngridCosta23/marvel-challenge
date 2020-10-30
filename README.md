@@ -15,7 +15,7 @@ Para testar, é só:
 
 ### :mag_right: Como usar
 
-Descer a página para vizualizar mais personagens e os botões de mudança. Caso haja mais páginas, é só clicar em:
+Descer a página para visualizar mais personagens e os botões de mudança. Caso haja mais páginas, é só clicar em:
 - ">" para para a próxima página
 - ">>" para ir para a última pagina
 - "<" para voltar para página anterior
